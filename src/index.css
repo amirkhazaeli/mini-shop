@@ -1,0 +1,228 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+body{
+    direction: rtl;
+    background-color: #eee2e2;
+    font-family: "وزیری";
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  }
+header{
+    height: 50px;
+    background-color: #bb7c7c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+header a{
+    font-size: 30px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+main{
+    padding: 0 20px;
+  }
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.Products{
+    width: calc(70% - 20px);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar{
+    width: calc(30% - 20px);
+    align-items: center;
+}
+.filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+.filter .sort{
+    text-align: center;
+}
+select{
+    padding: 5px;
+    width: 100px;
+}
+.brand label{
+    margin-left: 10px;
+}
+.form-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.form-checkbox .form-group{
+    margin-right: 15px;
+}
+.form-checkbox .form-group input{
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bb7c7c ;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+.mobiles ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mobiles ul li .mobile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
+.mobiles ul li .mobile img{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+.mobile span{
+    padding: 10px 0px;
+} 
+.price-info{
+    border-top: 1px solid rgb(126, 123, 123);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.price-info button{
+    background-color: #bb7c7c;
+    box-shadow: 0 3px 8px white;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    width: 110px;
+    height: 30px;
+    font-size: 20px;
+}
+.price-info span{
+    color: green;
+}
+.cart-mobiles{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: white;
+    object-fit: contain;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 2%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .25);
+}
+.mobile-info{
+    display: flex;
+    align-items:flex-start;
+}
+.mobile-info img{
+    width: 100px;
+    height: 100px;
+  
+}
+.mobile-info span{
+    padding-right: 10px;
+}
+.emty-price{
+    text-align: center;
+    background-color:  #bb7c7c;;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.show-price{
+    text-align: center;
+    background-color:  #bb7c7c;;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.mobile-price-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+.price-num{
+    width: 50%;
+}
+.buy-num{
+    background-color: #167549;
+    color: white;
+    font-size: 20px;
+    padding: 10px 1px;
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    width: 20%;
+    margin-right: 20px;
+}
+.mobile-price button{
+    margin-top: 20px;
+    background-color: #EF4056;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.total-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 10px;
+    background-color: #bb7c7c;
+    font-size: 20px;
+    color: white;
+}
+.total-price .price-text{
+    padding-left: 10px;
+}

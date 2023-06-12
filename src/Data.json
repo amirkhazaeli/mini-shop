@@ -1,0 +1,52 @@
+{
+    "Mobiles": [
+        {
+            "id": "1",
+            "image": "image/black1.jpg",
+            "title": "موبایل بلک بری",
+            "price": 4000000,
+            "qty": "0",
+            "avabrand":["blackbry"]
+        },
+        {
+            "id":"2" ,
+            "image": "image/huawei1.jpg",
+            "title": "موبایل هواوی",
+            "price": 8796666,
+            "qty": "0",
+            "avabrand":["huawei"]
+        },
+        {
+            "id": "3",
+            "image": "image/iphone1.jpg",
+            "title": "موبایل ایفون",
+            "price": 88000000,
+            "qty": "0",
+            "avabrand":["iphone"]
+        },
+        {
+            "id":"4" ,
+            "image": "image/samsung1.jpg",
+            "title": "موبایل سامسونگ",
+            "price": 25655500,
+            "qty": "0",
+            "avabrand":["samsung"]
+        },
+        {
+            "id":"5" ,
+            "image": "image/motorola1.jpg",
+            "title": "موبایل موتورال",
+            "price": 8587899,
+            "qty": "0",
+            "avabrand":["motorola"]
+        },
+        {
+            "id":"6" ,
+            "image": "image/motorola1.jpg",
+            "title": "موبایل موتورال",
+            "price": 9587899,
+            "qty": "0",
+            "avabrand":["motorola"]
+        }
+    ]
+}
